@@ -1,0 +1,22 @@
+Dataset Source:
+
+Data is collected from https://clinicaltrials.gov/. 
+ClinicalTrials.gov is a massive database of privately and publicly financed clinical trials from across the world. 
+Discover over 4 lakh research studies from all 50 states and 221 countries. 
+ClinicalTrials.gov is a service of the National Library of Medicine in the United States. 
+Clinicaltrials.gov has grown at an astounding rate since its establishment in 2000. 
+Many clinical studies are reviewed, monitored, and approved by an Institutional Review Board (IRB). 
+It is an impartial group comprising physicians, statisticians, and community people. 
+Their responsibility is to ensure that the research is ethical. 
+A clinical trial in the United States must have an IRB if it is examining a medicine, biological product, or medical device regulated by the Food and Drug Administration (FDA), or if it is financed or carried out by the federal government.
+
+Dataset Description:
+
+In the database, 327 tables use nct id as a unique identifier. 
+The total data available is 4,23,077. 
+Out of 4,23,077 entries only 23,282 had Study Protocols, Statistical Analysis Plans (SAPs) and Informed Consent Forms (ICFs) documents. 
+As the research is focusing on protocol documents, the database contains in total 21, 745 records of study protocol documents for all diseases. 
+Clinical trial research is extensive and includes a wide range of diseases; 
+it was difficult to analyze the features of all different types of conditions at once. 
+Therefore, we focused on all diabetes-related clinical trials in this study.
+Out of 21, 745 records which contained protocol documents only 970 diabetes had the protocol document.

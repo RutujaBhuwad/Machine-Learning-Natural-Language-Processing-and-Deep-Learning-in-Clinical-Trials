@@ -1,8 +1,0 @@
-Results:
-
-After feeding the validation dataset to the trained model, we measured each machine learning classifier model's accuracy, precision, recall, f1 score. 
-Also compared the confusion matrix for all models. 
-
-Out of all the models, Random Forest classifier had the highest accuracy, at 64.38 percent. 
-The lowest accuracy was provided by the Decision Tree classifier, which was 53.42 percent.
-While Support Vector Classifier and Logistic Regression both provided results of 60.27 percent and 56.16 percent, respectively.

@@ -1,0 +1,22 @@
+
+The machine learning model's purpose in this study is use fixed-size feature vectors of the text data to predict target attribute Status which consist binary values 0 for Completed status of study and 1 for Not completed status of study. 
+Accordingly, it is a machine learning classification problem because we are attempting to categorize the feature vector as  0 or 1.
+
+Step 1: 
+Since one of the purposes of supervised learning is to develop a model that performs well on new data, the dataset must first be randomly split into training and validation datasets. 
+Therefore, the dataset is divided into two sets, one set serving as a training set and including 80 percent of the dataset, and the second set serving as a validation set and containing the remaining 20 percent.
+
+Step 2: 
+In learning stage, the Machine learning algorithm continuously assesses input and target pairs from the training set, 
+further calculates an target value for each pair and evaluates it against the real value. 
+The system then optimizes itself and enhances its performance using the distance between the two. 
+That distance decreases throughout the learning process until it is consistently less than a predetermined value. 
+After learning process the model is created and to test the model validation dataset is used. 
+
+Step 3:
+In third stage validation data is passed to machine learning model as an input and the trained machine learning model will predict the output later this output is compared with the actual output of  validation set. 
+Basically, It must reflect the output values of the validation set with an accuracy that is enough for its intended use in order to be verified successfully.
+
+
+
+

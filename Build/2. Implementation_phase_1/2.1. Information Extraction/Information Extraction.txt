@@ -1,0 +1,18 @@
+Information Extraction:
+
+The pipeline will then go on to protocol papers since the next phase will be to extract meaningful content from each of these 970 records. 
+Because the pdf pages range from 2 to 250 pages, not every page is required. 
+Sending all text would cause an imbalance while giving input for the machine learning model. 
+To ensure that each pdf delivers stable and relevant data, text extraction is an essential aspect of the pipeline.
+As all the protocol documents did not follow a particular format also the page number varies it was challenging to extract specific and same content from the pdf.
+
+To obtain the protocol pdf from the URL in the metadata, we first parsed the protocol document by hitting each URL from the HTTP request for each trial. 
+Then, because the protocol papers were in .pdf format, we utilised the PyPDF2 library to execute operations on them. First, 
+we used PdfFileReader, a method called getFormTextFields(), to extract text data from the PDF. 
+This method retrieves text data and displays it in dictionary format.
+
+Then there was the pdf document, from which we extracted the pages with the highest number of the requisite terms. 
+First, we compiled a list of thirteen critical terms from the clinical trial webpage. 
+Later, We made a list of page number and total count on that page for each terminology using the findall() method, which searches the string from left to right to find all matches of the pattern in the string. 
+Finally, selected a single page for each terminology with the highest count for that term and extracted the text using the extractText() function, which is used to extract text from PDF files. 
+After that, saved collected text in a data frame for further processing for each terminology.

@@ -1,9 +1,0 @@
-While cleaning the data we initially focused on creating target vectors. 
-As the research classifies whether the trial will be completed or not completed, the status column is the best fit for creating target vectors. 
-Different status such as 'Completed', 'Recruiting', 'Active, not recruiting', 'Terminated','Unknown status', 'Not yet recruiting', 'Enrolling by invitation', 'Withdrawn', 'Suspended' unique values. 
-We kept the completed values as it is and changed the remaining values to not completed status. 
-
-
-Basic text cleaning steps were implemented on protocol documents as well as metadata. 
-Extracted the PDF link from the document column and stored in the dataframe. 
-At last created a dataframe consisting of ‘NCT numbet’, ‘Status’, ‘Conditions’, ‘Sponsor/Collaborators’, ‘Age’, ‘Sponsor/Collaborators’, ‘Study Design', ‘Location’ and ’Links'.
